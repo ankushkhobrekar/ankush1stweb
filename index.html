@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website | Everyday shirts, made better</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="My First Website home">
+      <span class="brand-mark">MF</span>
+      <span>my first<br>website</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#shop">Shop all</a>
+      <a href="#story">Our story</a>
+      <a href="#journal">Journal</a>
+    </nav>
+    <button class="cart-button" type="button" aria-label="Open shopping bag">Bag <span class="cart-count">0</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> New season / 2026</p>
+        <h1 id="hero-title">Shirts with<br><em>something</em> to say.</h1>
+        <p class="hero-description">Good clothes, made for the everyday. Thoughtful fits, heavyweight cotton, and no unnecessary fuss.</p>
+        <a class="button button-dark" href="#shop">Shop the collection <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-label="Model wearing an orange shirt">
+        <div class="sun-shape"></div>
+        <div class="hero-label">Made for<br>the long haul.</div>
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=85" alt="Person in a bright orange casual shirt">
+        <div class="hero-sticker">100%<br>cotton</div>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / The collection</p>
+          <h2 id="collection-title">The good<br>shirt edit.</h2>
+        </div>
+        <p class="section-note">Four dependable shapes.<br>Infinite ways to wear them.</p>
+      </div>
+      <div class="filter-row" aria-label="Product filters">
+        <button class="filter active" type="button">All shirts <span>04</span></button>
+        <button class="filter" type="button">Overshirts <span>02</span></button>
+        <button class="filter" type="button">Tees <span>02</span></button>
+        <button class="filter sort" type="button">Sort: featured <span>⌄</span></button>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image clay" href="#product" aria-label="View The Daily Tee">
+            <span class="product-tag">Best seller</span>
+            <img src="https://images.unsplash.com/photo-1583743814966-8936f37f4678?auto=format&fit=crop&w=700&q=85" alt="Black t-shirt on a person">
+            <span class="view-product">View product <b>↗</b></span>
+          </a>
+          <div class="product-info"><h3>The Daily Tee</h3><p>Ink black · 48</p><strong>$48</strong></div>
+        </article>
+        <article class="product-card">
+          <a class="product-image sky" href="#product" aria-label="View The Utility Overshirt">
+            <img src="https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?auto=format&fit=crop&w=700&q=85" alt="Person wearing a blue overshirt">
+            <span class="view-product">View product <b>↗</b></span>
+          </a>
+          <div class="product-info"><h3>The Utility Overshirt</h3><p>Washed blue · 128</p><strong>$128</strong></div>
+        </article>
+        <article class="product-card">
+          <a class="product-image butter" href="#product" aria-label="View The Sunday Shirt">
+            <span class="product-tag new">New</span>
+            <img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=700&q=85" alt="Cream button-up shirt on a person">
+            <span class="view-product">View product <b>↗</b></span>
+          </a>
+          <div class="product-info"><h3>The Sunday Shirt</h3><p>Natural ecru · 96</p><strong>$110</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement" id="story">
+      <p class="eyebrow">02 / Our point of view</p>
+      <h2>Less, but <em>better.</em></h2>
+      <p>We make the pieces you reach for on repeat. Designed in small batches, cut from fabrics that get better with time.</p>
+      <a class="text-link" href="#journal">Read our story <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="journal">
+    <span>© 2026 My First Website</span>
+    <span>Built for everyday living.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
